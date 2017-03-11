@@ -1,8 +1,8 @@
-# aspnetapp Sample
+# aspnetappapi Sample
 
 The aspnetapp sample demonstrates how to Dockerize an ASP.NET Core app. If you'd like to see how to Dockerize a .NET Framework app check out the [.NET Framework Docker samples](https://github.com/Microsoft/dotnet-framework-docker-samples).
 
-The instructions assume that you already have [.NET Core 1.1 RC4](https://github.com/dotnet/core/blob/master/release-notes/rc4-download.md), [Git](https://git-scm.com/downloads), and [Docker](https://www.docker.com/products/docker) clients installed. They also assume you already know how to target Linux or Windows containers. Do try both image types. You need the latest Windows 10 or Windows Server 2016 to use [Windows containers](http://aka.ms/windowscontainers). For additional tutorials on ASP.NET Core see [ASP.NET Core Getting Started](https://www.asp.net/get-started).
+The instructions assume that you already have [.NET Core 1.1](https://github.com/dotnet/core/blob/master/release-notes/rc4-download.md), [Git](https://git-scm.com/downloads), and [Docker](https://www.docker.com/products/docker) clients installed. They also assume you already know how to target Linux or Windows containers. Do try both image types. You need the latest Windows 10 or Windows Server 2016 to use [Windows containers](http://aka.ms/windowscontainers). For additional tutorials on ASP.NET Core see [ASP.NET Core Getting Started](https://www.asp.net/get-started).
 
 Instructions
 ------------
@@ -10,8 +10,7 @@ Instructions
 First, prepare your environment by cloning the repository and navigating to the sample:
 
 ```console
-git clone https://github.com/dotnet/dotnet-docker-samples/
-cd dotnet-docker-samples/aspnetapp
+git clone https://github.com/e-riddle/aspcoreapitemplate.git 
 ```
 
 Follow these steps to run the sample locally:
